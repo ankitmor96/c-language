@@ -1,4 +1,4 @@
-Program 1: Number Pattern (41 to 45)
+*Program 1: Number Pattern (41 to 45)
 Input:
 
 
@@ -27,10 +27,24 @@ Output
 4142434445
 
 
-Program 2: Continuous Number Pattern
-Input
+*Program 2: Continuous Number Pattern
+Input:
 
+#include<stdio.h>
 
+int main(){
+
+    int num = 11 ;
+
+    for(int i=1;i<=4;i++){
+        for(int j=1;j<=i;j++){
+            printf("%d",num);
+            num++;
+        }
+        printf("\n");
+    }
+    return 0;
+}
 
 
 Starting number = 11 (hardcoded)
@@ -44,8 +58,8 @@ Output
 17 18 19 20
 
 
-Program 3: Right Aligned Number Pattern
-Input
+*Program 3: Right Aligned Number Pattern
+Input:
 
 
 
