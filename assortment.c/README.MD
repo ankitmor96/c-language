@@ -274,7 +274,6 @@ int main(){
 
 =>Sample Output
 
-
 Enter the array row size: 2
 Enter the array column size: 3
 Enter the array elements:
