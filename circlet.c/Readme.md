@@ -1,4 +1,4 @@
-=>*Program 1: Number Pattern (41 to 45)
+=>*Program 1): Number Pattern (41 to 45)
 Input:
 
 
@@ -29,7 +29,7 @@ Output
 
 
 
-=>*Program 2: Continuous Number Pattern
+=>*Program 2): Continuous Number Pattern
 Input:
 
 #include<stdio.h>
@@ -63,7 +63,7 @@ Output
 
 
 
-=>*Program 3: Right Aligned Number Pattern
+=>*Program 3): Right Aligned Number Pattern
 Input:
 
 #include<stdio.h>
@@ -98,7 +98,7 @@ Output
 
 
 
-=>Program 4: Left Aligned Descending Pattern
+=>Program 4): Left Aligned Descending Pattern
 Input:
 
 #include<stdio.h>
@@ -132,7 +132,7 @@ Output
 
 
 
-=>*Program 5: Number Pyramid Pattern
+=>*Program 5): Number Pyramid Pattern
 Input:
 
 #include<stdio.h>
@@ -168,7 +168,7 @@ Output
 123454321
 
 
-=>*Program 6: Mirror Number Pattern
+=>*Program 6): Mirror Number Pattern
 Input:
 
 #include <stdio.h>
@@ -212,7 +212,7 @@ Output
 
 
 
-=>*Program 7: Star Pattern Using Condition
+=>*Program 7): Star Pattern Using Condition
 Input:
 
 #include <stdio.h>
