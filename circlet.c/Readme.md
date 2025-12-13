@@ -1,9 +1,21 @@
 Program 1: Number Pattern (41 to 45)
-Input
+Input:
 
 
+#include<stdio.h>
 
+int main(){
 
+    int num=5;
+
+    for(int i=41;i<=45;i++){
+        for(int j=41;j<=i;j++){
+            printf("%d",j);
+        }
+        printf("\n");
+    }
+    return 0;
+}
 
 
 
