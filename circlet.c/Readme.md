@@ -238,3 +238,7 @@ Rows = 3
 Columns = 5
 
 Output
+* * * * *
+*       *
+* * * * *
+*
