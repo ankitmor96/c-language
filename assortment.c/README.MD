@@ -285,5 +285,3 @@ Transpose matrix of an array:
 2 5
 3 6
 
-
- 
