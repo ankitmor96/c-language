@@ -9,35 +9,9 @@ Each program includes sample input and output for better understanding.
 This program calculates the factorial of a given integer using a for loop.
 It also checks for negative numbers.
 =>code:
-#include<stdio.h>
-
-int main(){
-
-int num;
- int factorial =1;
-
-printf("enter your int:");
-scanf("%d",&num);
-
-if(num<0){
-    printf("factorial is not defined for negative number");
-}else{
-    for(int i=1;i<=num;i++){
-       factorial=factorial*i;
-    }
-     printf("factorial of %d=%d",num,factorial);
-}
-
-return 0;
-
-}
 
 
-⌨️ Input
-Enter your int: 5
 
-🖥️ Output
-factorial of 5 = 120
 
 
 If input is negative:
@@ -49,38 +23,23 @@ factorial is not defined for negative number
 
 This program reads a sentence from the user and counts the occurrences of vowels
 (A, E, I, O, U) using a user-defined function.
+=>code:
 
 
 
 
 
-⌨️ Input
-Enter a sentence: Hello World
-
-🖥️ Output
-A = 0
-E = 1
-I = 0
-O = 2
-U = 0
 
 🔹 3. Swap Two Numbers Using Pointers
 📌 Description
 
 This program swaps two numbers using call by reference with pointers.
+=>code:
 
 
 
 
 
-
-⌨️ Input
-Enter two numbers:
-10 20
-
-🖥️ Output
-After swapping:
-x = 20, y = 10
 
 
 
@@ -88,6 +47,7 @@ x = 20, y = 10
 📌 Description
 
 This program checks whether a given year is a Leap Year using a function.
+=>code
 
 
 
@@ -95,12 +55,6 @@ This program checks whether a given year is a Leap Year using a function.
 
 
 
-
-⌨️ Input
-Enter a year: 2024
-
-🖥️ Output
-2024 is a Leap Year
 
 
 Example of non-leap year:
@@ -111,6 +65,7 @@ Example of non-leap year:
 📌 Description
 
 This program prints a right-aligned star pyramid using nested for loops.
+=>code:
 
 
 
@@ -118,9 +73,3 @@ This program prints a right-aligned star pyramid using nested for loops.
 
 
 
-🖥️ Output
-    *
-   **
-  ***
- ****
-*****
